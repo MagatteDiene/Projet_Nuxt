@@ -18,7 +18,7 @@
           </li>
           
           <li class="nav-item">
-            <nuxt-link class="nav-link" to="/"><i class='bx bx-eraser'></i> Supprimer une note </nuxt-link>
+            <nuxt-link class="nav-link" to="/DeleteNote"><i class='bx bx-eraser'></i> Supprimer une note </nuxt-link>
           </li>
           <li class="nav-item">
             <nuxt-link class="nav-link" to="/"><i class='bx bx-search-alt'></i> Rechercher une note </nuxt-link>
