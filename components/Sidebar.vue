@@ -8,20 +8,16 @@
             <nuxt-link class="nav-link-home" to="/">Accueil</nuxt-link>
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link" to="/AddNote"><i class='bx bx-book-add'></i> Ajouter une note </nuxt-link>
-          </li>
-          <li class="nav-item">
             <nuxt-link class="nav-link" to="/NotesList"><i class='bx bx-list-ul'></i> Liste des notes </nuxt-link>
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link" to="/"><i class='bx bx-edit-alt'></i> Modifier une note </nuxt-link>
+            <nuxt-link class="nav-link" to="/AddNote"><i class='bx bx-book-add'></i> Ajouter une note </nuxt-link>
           </li>
-          
           <li class="nav-item">
             <nuxt-link class="nav-link" to="/DeleteNote"><i class='bx bx-eraser'></i> Supprimer une note </nuxt-link>
           </li>
           <li class="nav-item">
-            <nuxt-link class="nav-link" to="/"><i class='bx bx-search-alt'></i> Rechercher une note </nuxt-link>
+            <nuxt-link class="nav-link" to="/SearchNote"><i class='bx bx-search-alt'></i> Rechercher une note </nuxt-link>
           </li>
         </ul>
         

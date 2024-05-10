@@ -1,6 +1,6 @@
 <template>
     <div class="delete-note-page">
-      <h1>Supprimer une note</h1>
+      <h1>Supprimer une <span>ℕ𝕠𝕥𝕖</span></h1>
       <ul>
         <li v-for="(note, index) in notes" :key="index">
           <div>
@@ -46,6 +46,9 @@
     background-position: right;
     overflow-y: auto; /* pour le défilement */
   }
+  .delete-note-page h1 span{
+    color: #e1898e;
+  }
   .delete-note-page h1 {
     margin-bottom: 20px;
     margin-top: 50px;
@@ -78,6 +81,7 @@
   .delete-note-page button:hover {
     background-color: white;
     color: #e1898e;
+    transition: .5s;
   }
   </style>
   

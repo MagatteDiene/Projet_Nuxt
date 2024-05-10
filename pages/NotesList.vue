@@ -1,6 +1,6 @@
 <template>
   <div class="notes-list-page">
-    <h1>Liste des notes</h1>
+    <h1>Liste des <span>ℕ𝕠𝕥𝕖𝕤 </span></h1>
     <ul>
       <li v-for="(note, index) in notes" :key="index">
         <h2 @click="toggleNoteContent(index)">{{ note.title }}</h2>
@@ -32,6 +32,9 @@ export default {
 <style scoped>
 .notes-list-page li {
   cursor: pointer;
+}
+.notes-list-page h1 span {
+  color: black; 
 }
 .notes-list-page {
   height: 100vh;

@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>Bienvenue sur <span>ℕ𝕠𝕥𝕖𝕂𝕖𝕖𝕡𝕖𝕣 <i class='bx bx-edit-alt'></i></span></h1>
+    <h1>Bienvenue sur <span>ℕ𝕠𝕥𝕖𝕂𝕖𝕖𝕡𝕖𝕣 </span><i class='bx bx-edit-alt'></i></h1>
     <p>L'application specialement conçue pour <br> vous aider à gérer vos notes.</p>
     <!-- Ajoutez plus de contenu ici si nécessaire -->
   </div>
