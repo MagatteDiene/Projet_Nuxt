@@ -1,4 +1,6 @@
 <template>
+  <div>
+    <Sidebar/>
   <div class="notes-list-page">
     <h1>Liste des <span>ℕ𝕠𝕥𝕖𝕤 </span></h1>
     <ul>
@@ -7,6 +9,7 @@
         <p v-if="note.showFullContent" class="note-content">{{ note.content }}</p>
       </li>
     </ul>
+  </div>
   </div>
 </template>
 

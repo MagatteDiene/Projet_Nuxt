@@ -1,4 +1,6 @@
 <template>
+  <div>
+    <Sidebar/>
     <div class="delete-note-page">
       <h1>Supprimer une <span>ℕ𝕠𝕥𝕖</span></h1>
       <ul>
@@ -9,6 +11,7 @@
           </div>
         </li>
       </ul>
+    </div>
     </div>
   </template>
   

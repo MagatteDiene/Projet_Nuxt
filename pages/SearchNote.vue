@@ -1,4 +1,6 @@
 <template>
+  <div>
+    <Sidebar/>
     <div class="search-note-page">
       <h1>Rechercher une <span>ℕ𝕠𝕥𝕖</span></h1>
       <input type="text" v-model="searchQuery" placeholder="Rechercher...">
@@ -8,6 +10,7 @@
         </li>
       </ul>
     </div>
+  </div>
   </template>
   
   <script>

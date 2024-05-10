@@ -1,4 +1,6 @@
 <template>
+  <div>
+    <Sidebar/>
     <div class="add-note-page">
       <h1>Ajouter une <span>ℕ𝕠𝕥𝕖</span></h1>
       <form @submit.prevent="submitNote">
@@ -12,6 +14,7 @@
         </div>
         <button type="submit">Ajouter la note</button>
       </form>
+    </div>
     </div>
   </template>
   
