@@ -60,7 +60,7 @@ export default {
     background-size: cover;
   }
   .add-note-page h1{
-    margin-right: 210px;
+    margin-right: 290px;
   }
   .add-note-page h1 span {
   color: #e1898e; 
@@ -72,7 +72,7 @@ export default {
     box-shadow: 5px 10px 15px #e1898e;
     backdrop-filter: blur(1px);
     border-radius: 10px;
-    margin-right: 200px;
+    margin-right: 300px;
   }
   .add-note-page form label {
     display: block;
