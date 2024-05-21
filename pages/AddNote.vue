@@ -30,17 +30,17 @@ export default {
   },
   methods: {
     submitNote() {
-      // Sauvegarder la note dans le stockage local
+      
       this.saveNoteToLocal(this.note);
-      // Rediriger l'utilisateur vers une autre page (par exemple, la liste des notes)
+      
       this.$router.push('/NotesList');
     },
     saveNoteToLocal(note) {
-      // Récupérer les notes existantes dans le stockage local (s'il y en a)
+      
       const existingNotes = JSON.parse(localStorage.getItem('notes')) || [];
-      // Ajouter la nouvelle note à la liste des notes existantes
+      
       existingNotes.push(note);
-      // Mettre à jour les données dans le stockage local
+     
       localStorage.setItem('notes', JSON.stringify(existingNotes));
     }
   }
